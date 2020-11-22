@@ -1,5 +1,6 @@
 * {box-sizing: border-box}
 
+
 body {
   background-color: white;
   margin: 25px;
@@ -149,6 +150,7 @@ li>a:hover{
 	color: white ;
 	background-color: #7787ba;
 }
+
 h1{
 	background-color: #7787ba;
 	color: white;
@@ -205,7 +207,7 @@ color: white;
 }
 .gallery{
 	margin: 5px;
-	
+
 	float: left;
 	width: 200px;
 
@@ -227,6 +229,7 @@ color: white;
 	color: gray;
 	font-size: 25px;
 }
+
 footer{
 	padding: 10px;
 	font-size: 17px;
@@ -253,7 +256,7 @@ footer{
 	margin-top:0px;
 	margin-bottom:8px;
 	text-align:center;
-	font-size: 40px;
+	font-size: 50px;
 }                       
 
 #tagline{
@@ -353,10 +356,16 @@ footer{
 	margin-bottom: 0px;
 }
 
-.container{
-	
-	margin: auto;
-	
-	overflow: auto; 
-	margin-bottom: 10px;
+html {
+  scroll-behavior: smooth;
 }
+
+
+
+
+
+
+
+
+
+
